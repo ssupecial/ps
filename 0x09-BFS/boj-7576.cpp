@@ -54,11 +54,6 @@ int main(void){
         }
     }
 
-    if (start == 1){
-        cout << 0;
-        return 0;
-    }
-
     cout << start-1;
 
 
