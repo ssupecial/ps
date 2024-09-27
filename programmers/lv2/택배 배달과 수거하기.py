@@ -1,6 +1,6 @@
 # 택배 배달과 수거하기
 # https://school.programmers.co.kr/learn/courses/30/lessons/150369
-# 09.26 23:25~
+# 09.26 23:25~00:45 (1시간 20분)
 
 
 def solution(cap, n, deliveries, pickups):
