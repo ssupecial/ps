@@ -12,6 +12,8 @@ def lower_bound(arr, target):
         elif arr[mid] > target:
             r = mid
 
+    return r
+
 
 # key 초과의 값이 처음 나오는 위치를 찾아보자!
 # 핵심: 해당 키보다 큰 배열을 계속 구해가면서 마지막에 해당 배열의 가장 오른쪽 인덱스를 넘겨주면 된다
