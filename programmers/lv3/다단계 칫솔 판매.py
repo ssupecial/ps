@@ -14,7 +14,6 @@ def cost(name_index, price, parent, results):
 
 
 def solution(enroll, referral, seller, amount):
-    answer = []
     parent = [0] * (len(enroll) + 1)
     name_to_index = {}
     name_to_index["-"] = 0
