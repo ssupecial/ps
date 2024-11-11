@@ -20,7 +20,7 @@ for i in range(N + 1, N + M + 1):
 visited = [float("inf")] * (N + M + 1)
 q = deque()
 q.append((1, 1))
-visited[1] = 0
+visited[1] = 1
 
 while q:
     node, dist = q.popleft()
